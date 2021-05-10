@@ -12,8 +12,6 @@ ScriptsOnlyBuild:
     Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
     - Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector
     - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
-    - Microsoft.MixedReality.Toolkit.Editor.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfileInspector
-    - Microsoft.MixedReality.Toolkit.SpatialAwareness.Editor.MixedRealitySpatialAwarenessSystemProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
@@ -287,29 +285,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15042}
     - Class: 114
-      Script: {instanceID: 15298}
+      Script: {instanceID: 15132}
     - Class: 114
-      Script: {instanceID: 15302}
+      Script: {instanceID: 15300}
     - Class: 114
-      Script: {instanceID: 15320}
+      Script: {instanceID: 15304}
     - Class: 114
-      Script: {instanceID: 15394}
+      Script: {instanceID: 15322}
     - Class: 114
-      Script: {instanceID: 15436}
+      Script: {instanceID: 15396}
     - Class: 114
-      Script: {instanceID: 15536}
+      Script: {instanceID: 15438}
     - Class: 114
-      Script: {instanceID: 15564}
+      Script: {instanceID: 15538}
     - Class: 114
-      Script: {instanceID: 15732}
+      Script: {instanceID: 15566}
     - Class: 114
-      Script: {instanceID: 15746}
+      Script: {instanceID: 15734}
     - Class: 114
-      Script: {instanceID: 15792}
+      Script: {instanceID: 15748}
     - Class: 114
-      Script: {instanceID: 15884}
+      Script: {instanceID: 15794}
     - Class: 114
-      Script: {instanceID: 168170}
+      Script: {instanceID: 15886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1655,7 +1653,7 @@ ScriptsOnlyBuild:
     className: TeleportHotSpot
   - hash:
       serializedVersion: 2
-      Hash: c993e6b39d9667c29d35c5fdd98c6e4a
+      Hash: a03b83bb02cae4a43b2c93340b3f39d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeMaterial_Delete
@@ -2621,6 +2619,12 @@ ScriptsOnlyBuild:
     className: SpawnOnPointerEvent
   - hash:
       serializedVersion: 2
+      Hash: 05c9ffb8d4f217ee8eabb7d7eaa5e502
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CheckSaveLoad
+  - hash:
+      serializedVersion: 2
       Hash: 0e65845dc5a77219527fa80a7c3f4344
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.SceneSystem
@@ -3033,13 +3037,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 05c9ffb8d4f217ee8eabb7d7eaa5e502
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CheckSaveLoad
   platform: 21
   scenePathNames:
   - Assets/Scene/level1.unity
-  playerPath: D:/builds/15
+  playerPath: D:/builds/18

@@ -28287,6 +28287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1137684398}
+  materialHighlight: {fileID: 2100000, guid: 4c63e230f530e6c4e8be8b25846c0989, type: 2}
 --- !u!1 &810757068
 GameObject:
   m_ObjectHideFlags: 0
@@ -59748,6 +59749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 752268062}
+  materialHighlight: {fileID: 0}
 --- !u!114 &1495643971
 MonoBehaviour:
   m_ObjectHideFlags: 0

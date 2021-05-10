@@ -21,5 +21,8 @@ public class SelectObject : MonoBehaviour
     {
         changMaterial = GameObject.Find("Menu3x3");
         changMaterial.GetComponent<ChangeMaterial_Delete>().setGameObject(this.gameObject);
+
+        //highligh
+
     }
 }
